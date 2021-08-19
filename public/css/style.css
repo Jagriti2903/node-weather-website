@@ -1,0 +1,115 @@
+body {
+    color: #066b63;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 14px;
+    text-align: center;
+    background-color: rgb(166, 201, 233);
+
+    display : flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-height: 100vh;
+     /* background: url('/images/bg.jpg') no-repeat center center/cover; */
+    /*z-index: 3;
+    opacity : 0.9; */
+}
+
+.main-content {
+    flex-grow: 1;
+    font-size : 1.2rem;
+    
+}
+
+
+img {
+
+    width : 150px;
+}
+
+/* p {
+
+    font-size : 2rem;
+
+} */
+
+
+footer {
+    color: #3915d6;
+    border-top: 1px solid #766cfa;
+    margin-top: 16px;
+    padding: 16px 0;
+    font-size : 1.5rem;
+}
+
+header {
+    
+    text-align: center;
+    margin-top: 40px;
+    color :rgb(100, 62, 172);
+    margin-bottom: 20px;
+}
+
+
+.title {
+
+   
+    font-size : 3rem;
+    color :rgb(10, 87, 29);
+}
+
+.navbar {
+
+    margin : 20px;
+    text-align: center;
+    font-size:1.5rem;
+    color :rgb(72, 64, 185)
+}
+
+/* h1 {
+    font-size: 3rem;
+    color:chocolate;
+    margin-bottom: 50px;
+} */
+
+header a {
+    color: #3915d6;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+header a:hover{
+
+    color : rgb(129, 17, 79);
+
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+    margin : 5px;
+    font-size : 15px;
+}
+
+button {
+    cursor: pointer;
+    width : 80px;
+    border: 1px solid #45208b;
+    background: #888888;
+    color: white;
+    padding: 8px;
+    font-size : 15px;
+}
+
+button:hover {
+
+    background-color: #45208b;
+}
+
+.message-1, .message-2{
+
+    font-size : 10px;
+}
+
+
