@@ -16,7 +16,7 @@ const forecast = (latitude , longitude , callback) => {
 
         } else {
 
-            callback(undefined,response.body.current.weather_descriptions[0] +". Temperature in degree is " + response.body.current.temperature)
+            callback(undefined,response.body.current.weather_descriptions[0] +". Temperature in degree is " + response.body.current.temperature +". The humidity is "+response.body.current.humidity+"%")
 
 
         }

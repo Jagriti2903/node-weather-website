@@ -22,7 +22,7 @@ weatherForm.addEventListener('submit',(e)=>{
 
         else
         {
-         messageOne.style.color = "#13867d"
+           messageOne.style.color = "#03423d";
            messageOne.textContent = data.location
            messageTwo.textContent = data.forecast
        }

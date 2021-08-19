@@ -1,5 +1,5 @@
 body {
-    color: #066b63;
+    color: #03423d;
     font-family: arial;
     max-width: 650px;
     margin: 0 auto;
@@ -25,7 +25,7 @@ body {
 
 img {
 
-    width : 150px;
+    width : 130px;
 }
 
 /* p {
@@ -36,7 +36,7 @@ img {
 
 
 footer {
-    color: #3915d6;
+    color: #631a8d;
     border-top: 1px solid #766cfa;
     margin-top: 16px;
     padding: 16px 0;
@@ -47,7 +47,7 @@ header {
     
     text-align: center;
     margin-top: 40px;
-    color :rgb(100, 62, 172);
+    color :#631a8d;
     margin-bottom: 20px;
 }
 
@@ -74,7 +74,7 @@ header {
 } */
 
 header a {
-    color: #3915d6;
+    color: #631a8d;
     margin-right: 20px;
     text-decoration: none;
 }
