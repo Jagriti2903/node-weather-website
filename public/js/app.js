@@ -1,5 +1,3 @@
-console.log("here is client side javascript")
-
 const messageOne = document.querySelector('#message-1')
 const messageTwo = document.querySelector('#message-2')
 const search = document.querySelector('input')

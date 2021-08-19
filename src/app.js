@@ -104,33 +104,10 @@ app.get('*',(req,res) => {
     })
 })
 
-// app.get('' , (req,res)=>{
-
-//     res.send('hello express')
-// })
-
-// app.get('/help',(req,res)=>{
-    
-//     res.send('help page')
-// })
-
-// app.get('/about',(req,res)=>{
-
-//     res.send('<h1>about</h1>')
-// })
-
-// app.get('/weather',(req,res)=>{
-    
-//     res.send({
-
-//         forecast:'it is raining ',
-//         location : 'india'
-//     })
-// })
-
 app.listen(3000,()=>{
 
     console.log('server running on port 3000')
 })
+
 
 
